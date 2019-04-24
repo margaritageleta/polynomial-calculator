@@ -17,8 +17,16 @@ The Polynomial Calculator is based on two main classes: the Polynomial class and
 ## REQUIREMENTS
 
 Source files included the following libraries:
-*	stdlib.h		*	string		*	cmath		*	map		*	cassert
-*	iostream		*	vector		*	stack		* 	complex		* 	sstream
+*	stdlib.h		
+*	string		
+*	cmath		
+*	map		
+*	cassert
+*	iostream		
+*	vector		
+*	stack		
+* complex		
+* sstream
 
 ## IMPLEMENTED CLASSES
 
