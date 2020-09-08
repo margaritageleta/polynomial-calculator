@@ -1,0 +1,122 @@
+vector P(x) 2
+-1 2 1
+
+degree P(x)
+
+coeff P(x) 1
+
+print P(x)
+
+vector Q(x) 1
+1 2
+
+see Q(x)
+
++ P(x) Q(x) sum
+
++ Q(x) P(x) sum2
+
+- P(x) Q(x) dif
+
+- Q(x) P(x) dif2
+
+* P(x) Q(x) mul
+
+* Q(x) P(x) mul2
+
+** P(x) Q(x) mulfft
+
+** Q(x) P(x) mulfft2
+
+/ P(x) Q(x) div
+
+/ Q(x) P(x) div2
+
+gcd P(x) Q(x) gcd1
+
+gcd Q(x) P(x) gcd2
+
+delete P(x)
+y
+
+delete Q(x)
+y
+
+vector A(x) 5
+1 0 4 0 0 0
+
+see A(x)
+
+degree A(x)
+
+- A(x) A(x) sum3
+
+see sum3
+
++ sum3 sum3 test
+
+print test
+
+see test
+
+* A(x) test test2
+
+see test2
+
+/ A(x) test test3 
+
+** A(x) test test4 
+
+/ test A(x) test5
+
+** test A(x) test6
+
+eval A(x) 4
+
+eval test 4
+
+eval A(x) 0.99675
+
+print A(x)
+
+mod A(x) 1 -0.056
+
+print A(x)
+
+eval A(x) 4
+
+eval A(x) 0.99675
+
+vector H(x) 100
+0 0 0 0 0 4 5 0 0 0 7 8 -8 -3 -4 0 0 6 -7 -2 -1 -2 0.25 0 0 0 56 0 0 -49 0 -5 0 0 -8 0 0 2 0 0 0 0 0 0 0 6 0 0 7 0 1 0 0 0 0 0 4 5 0 0 0 7 8 -8 -3 -4 5 0 6 -7 -2 -1 -2 0.25 0 0 0 46 0 0 39 0 -5 0 0 -8 0 0 2 0 0 0 4 0 0 0 0.6868 0 -0.25 0 1
+
+print H(x)
+
+* H(x) H(x) mul3
+
+** H(x) H(x) mulfft3
+
+new huge(x)
+196x^10 + 40x^11 + 25x^12 + 56x^15 + 134x^16 + 16x^17 - 104x^18 - 62x^19 + 9x^20 + 112x^21 - 166x^23 - 126x^24 - 44x^25 + 47x^26 + 90x^27 + 16.5x^28 - 236x^29 + 30x^30 + 430x^31 + 615.5x^32 + 58x^33 - 340x^34 - 559.5x^35 + 767x^36 + 862x^37 - 902x^38 - 1051x^39 - 1306.5x^40 + 717x^41 + 233.5x^42 + 113.4545x^43 - 865.938x^44 - 312x^45 - 572x^46 + 538x^47 + 260x^48 + 136x^49 + 252x^50 - 66.5x^51 + 3268x^52 + 85.5x^53 + 110x^54 - 5392x^55 + 94x^56 - 660x^57 + 2455x^58 + 65x^59 - 54x^60 + 105x^62 + 968x^63 - 32x^64 + 152x^65 - 206x^66 + 255x^67 + 48x^68 - 240x^69 - 122.5x^70 + 694x^71 + 274.5x^72 - 132x^74 - 252x^75 + 34x^76 - 512x^77 + 100x^78 - 261x^79 - 512x^80 + 50x^81 + 692x^82 + 1191x^83 + 30x^84 + 32x^85 - 249x^86 + 1378x^87 + 1566.5x^88 - 1644x^89 - 774x^90 - 1125x^91 + 586x^92 + 23x^93 + 1502x^94 - 2069.88x^95 - 535x^96 - 86x^97 - 62x^98 + 163x^99 + 17x^100 + 109.494x^101 - 86.132x^102 + 5498x^103 + 48.5x^104 + 134x^105 - 52.3848x^106 + 92.9888x^107 - 1138.49x^108 - 3736.12x^109 + 22.5056x^110 
+
+* huge(x) huge(x) mul3
+
+** huge(x) huge(x) mulfft3
+
+* mul3 mul3 mul4
+
+** mul3 mul3 mulfft4
+
+eval huge(x) 1
+
+eval huge(x) -5
+
+help
+
+help: new
+
+help: help
+
+help: eat
+
+help: chao
